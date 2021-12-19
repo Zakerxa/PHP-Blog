@@ -2,7 +2,6 @@
 $catstmt  = $pdo->prepare("SELECT * FROM categories");
 $category = $catstmt->execute();
 $category = $catstmt->fetchAll();
-
 ?>
 <script>
   window.fbAsyncInit = function() {
@@ -51,6 +50,10 @@ $category = $catstmt->fetchAll();
     </ul>
 
     <ul class="navbar-nav ml-md-auto m-3">
+
+       <li class="nav-item">
+          <a class="nav-link text-dark" href="privacy.php"> Privacy</a>
+        </li>
 
       <?php if (isset($_COOKIE['id'])) {  ?>
         <li class="nav-item">

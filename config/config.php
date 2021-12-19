@@ -40,5 +40,3 @@ if (empty($_SESSION['token'])) {
 }
 
 $http = 'http://';
-
-?>

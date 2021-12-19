@@ -12,14 +12,16 @@
 <head>
     <!-- comment in localhost base href -->
     <!-- <base href="/" />   -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8477891123177186" crossorigin="anonymous"></script> -->
     <meta charset="UTF-8"> 
     <meta name="facebook-domain-verification" content="n2fxoikrkapwos4njdejkr2qf1hofb" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="facebook-domain-verification" content="7i61hevl3xj7inxlc2tvhgpl8ppxjo" />
     <meta property="fb:pages" content="100240385045148" />
     <meta property="og:url"           content="<?=$http.$_SERVER['SERVER_NAME']?>" />
     <meta property="og:type"          content="article" />
     <meta property="ia:markup_url"    content="<?=$http.$_SERVER['SERVER_NAME']?>">
-    <meta property="fb:app_id"        content="424036802116348"/>
+    <meta property="fb:app_id"        content="503656240628058"/>
     <meta property="og:title"         content="<?=$site['sitename']?>"/>
     <meta property="og:description"   content="<?=$site['sitename']?> မှ နည်းပညာများ၊ သတင်းများကို နေ့စဉ်နှင့်အမျှ တင်ပေးနေပါသောကြောင့် Page လေးကို Like & Follow လုပ်ထားခြင်းဖြင့် မိမိတို့စိတ်၀င်စားရာ ၀ါသနာပါရာများကို လေ့လာကြည့်ရှူနိုင်ပါပြီ။" />
     <meta property="og:image"         content="<?=$http.$_SERVER['SERVER_NAME']?>/images/<?=$site['logo']?>" />
@@ -36,7 +38,7 @@
 </head>
 <body class="bg-light">
    
- <?php include("./nav.php")?>
+ <?php include("./nav.php"); ?>
 
  <div class="container pt-5" id="yatha">
 
@@ -132,21 +134,7 @@
 
  </div>
 
-
-    <div class="footer mt-4" style="background-color: #222;">
-      <div class="container">
-        <div class="row pt-4 pb-2">
-          
-             <div class="col-12 text-light">
-                  <ul class="text-light text-center pt-3 mb-0 list-unstyled">
-                     <li class="pt-3 pb-3"><h6>Copyright @<?=date('Y')?> <?=$site['sitename']?></h6></li>
-                     <li class=""> <p>Powered by Zakerxa</p></li>
-                   </ul>
-              </div>
-                 
-        </div>
-      </div>
-    </div>
+ <?php include("./footer.php");?>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>

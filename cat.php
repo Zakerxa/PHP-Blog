@@ -140,20 +140,7 @@ if(empty($blog)){
   </div>
     
     
-  <div class="footer mt-4" style="background-color: #222;">
-    <div class="container">
-      <div class="row pt-4 pb-2">
-        
-           <div class="col-12 text-light">
-                <ul class="text-light text-center pt-3 mb-0 list-unstyled">
-                   <li class="pt-3 pb-3"><h6>Copyright @<?=date('Y')?> <?=$site['sitename']?></h6></li>
-                   <li class=""> <p>Powered by Zakerxa</p></li>
-                 </ul>
-            </div>
-               
-      </div>
-    </div>
-  </div>
+  <?php include("./footer.php");?>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
