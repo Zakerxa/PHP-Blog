@@ -52,12 +52,18 @@ $category = $catstmt->fetchAll();
     <ul class="navbar-nav ml-md-auto m-3">
 
        <li class="nav-item">
-          <a class="nav-link text-dark" href="privacy.php"> Privacy</a>
+          <a class="nav-link text-dark" href="privacy.php"> Privacy Policy</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="about.php"> About</a>
         </li>
 
         <li class="nav-item">
           <a class="nav-link text-dark" href="disclaimer.php"> Disclaimer</a>
         </li>
+
+        
 
       <?php if (isset($_COOKIE['id'])) {  ?>
         <li class="nav-item">

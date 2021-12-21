@@ -20,7 +20,7 @@
             <div class="col pt-5">
                 <h1>Zakerxa Web Site Agreement</h1>
                 <p>
-                The Ya Tha Sone Web Site (the "Site") is an online information service provided by Zakerxa ("Ya Tha Sone
+                The Ya Tha Sone Web Site ( <a href="http://zakerxa.com">http://zakerxa.com</a> ) is an online information service provided by Zakerxa ("Ya Tha Sone
                 "), subject to your compliance with the terms and conditions set forth below. PLEASE READ THIS DOCUMENT
                 CAREFULLY BEFORE ACCESSING OR USING THE SITE. BY ACCESSING OR USING THE SITE, YOU AGREE TO BE BOUND BY
                 THE TERMS AND CONDITIONS SET FORTH BELOW. IF YOU DO NOT WISH TO BE BOUND BY THESE TERMS AND CONDITIONS,
