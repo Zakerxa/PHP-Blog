@@ -27,7 +27,7 @@ $category = $catstmt->fetchAll();
 
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
-<nav class="navbar navbar-expand-lg border-bottom position-fixed w-100" style="font-family: sans-serif;background:#fff;z-index:9999">
+<nav class="navbar navbar-expand-lg border-bottom position-fixed w-100 fw-bold" style="font-family: sans-serif;background:#fff;z-index:9999">
   <div class="pl-0 mt-2">
     <h5 class="text-dark text-monospace p-1" style="letter-spacing: 5px;">
       <img src="./images/<?= $site['logo'] ?>" class="pr-1" width="50px" alt="logo" style="border-radius: 50px;"><?= $site['sitename'] ?>
@@ -53,6 +53,10 @@ $category = $catstmt->fetchAll();
 
        <li class="nav-item">
           <a class="nav-link text-dark" href="privacy.php"> Privacy</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="disclaimer.php"> Disclaimer</a>
         </li>
 
       <?php if (isset($_COOKIE['id'])) {  ?>

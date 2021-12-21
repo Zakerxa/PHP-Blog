@@ -20,7 +20,7 @@
             <div class="col pt-5">
                 <h1>Privacy Policy for Zakerxa</h1>
 
-                <p>At Ya Tha Sone, accessible from zakerxa.com, one of our main priorities is the privacy of our
+                <p>At Ya Tha Sone, accessible from <a href="http://zakerxa.com">http://zakerxa.com</a> , one of our main priorities is the privacy of our
                     visitors. This Privacy Policy document contains types of information that is collected and recorded
                     by Ya Tha Sone and how we use it.</p>
 
@@ -30,8 +30,8 @@
                 <p>This Privacy Policy applies only to our online activities and is valid for visitors to our website
                     with regards to the information that they shared and/or collect in Ya Tha Sone. This policy is not
                     applicable to any information collected offline or via channels other than this website. Our Privacy
-                    Policy was created with the help of the <a href="https://www.privacypolicygenerator.info">Free
-                        Privacy Policy Generator</a>.</p>
+                    Policy was created with the help of the Free
+                        Privacy Policy Generator</p>
 
                 <h2>Consent</h2>
 
