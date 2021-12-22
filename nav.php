@@ -6,7 +6,7 @@ $category = $catstmt->fetchAll();
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId: '424036802116348',
+      appId: '503656240628058',
       xfbml: true,
       version: 'v8.0'
     });
@@ -26,6 +26,11 @@ $category = $catstmt->fetchAll();
 </script>
 
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+
 
 <nav class="navbar navbar-expand-lg border-bottom position-fixed w-100 fw-bold" style="font-family: sans-serif;background:#fff;z-index:9999">
   <div class="pl-0 mt-2">

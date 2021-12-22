@@ -65,15 +65,6 @@ if(empty($row)){
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176461624-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-176461624-3');
-</script>
     <!-- Localhost base href -->
      <!-- <base href="/" />  -->
     <meta charset="UTF-8">
@@ -101,11 +92,6 @@ if(empty($row)){
     </style>
 </head>
 <body class="bg-light">
-
- <!-- Load Facebook SDK for JavaScript -->
- <div id="fb-root"></div>
- <script async defer src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
-
 
 <?php include("./nav.php")?>
 

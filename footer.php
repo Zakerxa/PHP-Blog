@@ -22,7 +22,7 @@
                 <h4 class="fw-bold pl-3 pb-2 pt-4 text-light">Contact </h4>
                 <ul class="p-0 text-light fw-bold" style="list-style: none;">
 
-                    <li class="border-left pl-3 pb-1 pt-2"><i class="fas fa-envelope-open text-warning  "></i> <a  style="text-decoration: none;"href="#" class="text-light fw-bold pb-1"> EMAIL : zakerxa@gmail.com</a></li>
+                    <li class="border-left pl-3 pb-1 pt-2"><i class="fas fa-envelope-open text-warning  "></i> EMAIL : zakerxa@gmail.com</li>
                     <li class="border-left pl-3 pb-1 pt-2"><i class="fa fa-phone text-warning"></i><a  style="text-decoration: none;" href="tel:+959777637858" class="text-light fw-bold pb-1"> PHONE : +959 777 637 858</a></li>
                     <li class="border-left pl-3 pb-1 pt-2"><i class="fas fa-map text-warning"></i> Country : Myanmar</li>
                     <li class="border-left pl-3 pb-1 pt-2"><i class="fas fa-mail-bulk text-warning"></i> POSTAL : 11231</li>
